@@ -1,0 +1,74 @@
+
+.custom-card{
+  /* Your card-specific styles here */
+  width: 2000px; /* Adjust the width as needed */
+  max-width: 100%; /* Ensures the card doesn't exceed its container */
+  box-sizing: border-box; /* Includes padding and border in the width */
+  overflow: hidden; /* Ensures content doesn't overflow */
+  margin: 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  background: linear-gradient(to right, #aaffe4, #00fc54, rgb(233, 186, 0),rgb(212, 255, 212),rgb(249, 240, 240));
+
+}
+
+.imageUrl{
+  padding: 20px;
+  border-radius: 8px;
+}
+.imageUrl:hover{
+  box-shadow: 8px 7px 15px rgba(0, 0, 255, 0.139);
+}
+.title{
+  text-align: center;
+  font-style: oblique;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 28px;
+  color: rgb(249, 242, 242);
+  font-weight: 900;
+  font-size: xx-large;
+  background-color: black;
+  padding: 12px;
+
+  width:945px;
+  text-align: center;
+  border-radius: 10%;
+
+}
+
+
+.content{
+  text-align: center;
+  background: linear-gradient(to right, #a9ffe4, #28ff70, rgb(244, 203, 37),rgb(195, 238, 195),rgb(249, 240, 240));
+  width: fit-content;
+  padding: 12px;
+
+}
+.content:hover{
+  box-shadow: 8px 7px 15px rgba(239, 8, 8, 0.1);
+}
+
+.pgraph{
+  padding: 10%;
+  color:rgb(0, 0, 0);
+  font-size: larger;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 8px;
+}
+.pgraph:hover{
+  background: linear-gradient(to right, #feffff, #28ff70, rgb(37, 82, 244),rgb(195, 238, 195),rgb(44, 44, 44));
+  padding: 40px;
+}
+
+.footerCard{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  color: white;
+  width: 2000px;
+  padding: 1%;
+}
